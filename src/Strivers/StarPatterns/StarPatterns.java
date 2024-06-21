@@ -1,8 +1,8 @@
-package Strivers;
+package Strivers.StarPatterns;
 
 import java.util.Scanner;
 
-class Main{
+class StarPatterns {
     public static void main(String args[]){
         System.out.println("Hello World");
         Scanner sc = new Scanner(System.in);
