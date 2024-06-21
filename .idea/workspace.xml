@@ -5,9 +5,150 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/StackNQueues/Questions/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/StackNQueues/Questions/SumOfTwoStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/ConvertingNegativeToPositive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/InputAndOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/binarySearch/CeilingProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/binarySearch/CeilingProblemWithCharArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/binarySearch/FindMinInDuplicateRotatedArr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/binarySearch/FindTheFirstIndexOfTargetElementInMountainArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/binarySearch/FirstAndLastPositionOfElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/binarySearch/FloorNumProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/binarySearch/InfiniteLengthArraySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/binarySearch/PeakIndexOfArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/binarySearch/RotatedArraySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/binarySearch/RotationCountOfRotatedArr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/binarySearch/SearchIn2DArrayRowAndColSorted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/binarySearch/SearchInStrictlySorted2DArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SearchQuestions/linearSearch/FindEvenDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SelfSolveQue/MedianOfTwoSortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SortQuestions/CyclicSort/FindAllDuplicatesInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SortQuestions/CyclicSort/FindDisappearedNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SortQuestions/CyclicSort/FindDuplicateNumKunalMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SortQuestions/CyclicSort/FindTheDuplicateNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SortQuestions/CyclicSort/FirstMissingNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SortQuestions/CyclicSort/FirstMissingPositive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Questions/SortQuestions/CyclicSort/SetMismatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SearchAlgorithms/binarySearch/BinarySearchASC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SearchAlgorithms/binarySearch/BinarySearchDES.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SearchAlgorithms/binarySearch/OrderAgnostic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SearchAlgorithms/linearSearch/LinearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SearchAlgorithms/linearSearch/LinearSearchIn2DArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SearchAlgorithms/linearSearch/LinearSearchInRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SearchAlgorithms/linearSearch/LinearSearchString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SearchAlgorithms/linearSearch/SearchMinAndMaxIn2DArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SearchAlgorithms/linearSearch/SearchMinAndMaxNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SortingAlgorithms/bubbleSort/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SortingAlgorithms/cyclicSort/CyclicSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SortingAlgorithms/insertionSort/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/SortingAlgorithms/selectionSort/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtracking/MazeAllPathWithTotalCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtracking/MazeAllPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtracking/MazeCountPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtracking/MazeFindPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtracking/MazeWithDiagonalMoment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtracking/MazeWithObstacles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtracking/Questions/NKnightsCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtracking/Questions/NKnightsDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtracking/Questions/NQueen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtracking/Questions/NQueenCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtracking/Questions/NQueenCountSolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtracking/Questions/SudokuSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BitwiseOperators/FindIthBitValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BitwiseOperators/FindNIsPowerOfTwoOrNot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BitwiseOperators/FindPowerOfNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BitwiseOperators/FindSetBIts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BitwiseOperators/FindUniqueNumberInArr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BitwiseOperators/MagicNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BitwiseOperators/NoOfDigitsInBaseB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BitwiseOperators/Notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BitwiseOperators/OddOrEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BitwiseOperators/Quetions/FlipImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BitwiseOperators/Quetions/SeiveOfErosthenesToFindPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BitwiseOperators/XORFrom0toA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LinkedList/CircularLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LinkedList/DoublyLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LinkedList/LL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LinkedList/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LinkedList/MainForCLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LinkedList/MainForDLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LinkedList/Questions/InsertWithRecInLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LinkedList/Questions/LL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LinkedList/Questions/QuestionsLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LinkedList/Questions/Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/AbstractClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/Access.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/AccessControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/CheckAccess/Check.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/Clone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/CompareTwoObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/CustomArrList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/ExceptionHandling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/FirstOopsProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/Inheritance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/Interfaces.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/LambdaFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/SingleTonDesignPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/WhatIsFinalKeyword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/OOPS/WhatStaticMeans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Patterns/NumPatternOriginalTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Patterns/NumPatternRevTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Patterns/NumPatternSquareLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Patterns/StarPatternArrow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Patterns/StarPatternDiamond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Patterns/StarPatternRevTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/CheckNoOfZeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/FactorialOfN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/PalindromeString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/ProductOfDigit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Arrays/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Arrays/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Arrays/FindArrayIsSortedOrNot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Arrays/LinearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Arrays/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Arrays/MergeSortInPlace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Arrays/NumberOfStepsToMakeNoZero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Arrays/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Arrays/RotatedBinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Arrays/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/StarPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Strings/DiceCombinations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Strings/Permutations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Strings/PermutationsCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Strings/PermutationsWithArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Strings/PhonePad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Strings/RemoveAFromString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Strings/SkipEntireString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Strings/SubSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Strings/SubSequenceWithArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/Questions/Strings/SubSequenceWithAsciiValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/ReverseNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/SumOfDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/SumOfN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/RecursionToIteration/SumOfSubSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/RecursionToIteration/SumOfSubSetWithDuplicates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/ArmstrongNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/CountingRepeatingNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/First.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/GetASCIIValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/PalindromeNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/PalindromeString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/PrimeNumMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/PrimeNumWithIterative.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/RemoveZeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/ReverseNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Simple/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/StackNQueues/CustomQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/StackNQueues/CustomStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/StackNQueues/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/StackNQueues/Questions/MyQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/StackNQueues/Questions/SumOfTwoStack.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +183,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/D/DataStructure&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/DSA/DataStructue-And-Algorithms",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.OOPS" />
