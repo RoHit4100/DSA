@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Kunal/Searching/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/Searching/LinearSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/BasicMaths/BasicMaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BasicMaths/BasicMaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/BasicMaths/BitwiseOperatorKunal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BasicMaths/BitwiseOperatorKunal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/Simple/RemoveZeros.java</url>
           <line>11</line>
-          <properties class="com.Simple.RemoveZeros" method="remove">
+          <properties class="com.Simple.RemoveZeros">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -116,7 +116,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/Recursion/Questions/Strings/SubSequenceWithArrayList.java</url>
           <line>9</line>
-          <properties class="com.Recursion.Questions.Strings.SubSequenceWithArrayList" method="findSubSequence">
+          <properties class="com.Recursion.Questions.Strings.SubSequenceWithArrayList">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
