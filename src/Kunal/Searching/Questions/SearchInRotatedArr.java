@@ -11,9 +11,12 @@ class SearchInRotatedArr{
 
     static int ans(int[] arr, int target){
         int pivot = findPivot(arr);
-        int firstTry = bS(arr, target, 0, pivot);
+        if(pivot == target){
+            return pivot;
+        }
+        int firstTry = bS(arr, target, 0, pivot - 1);
         if(firstTry == -1){
-            return bS(arr, target, pivot, arr.length);
+            return bS(arr, target, pivot + 1, arr.length);
         }
         return firstTry;
     }
