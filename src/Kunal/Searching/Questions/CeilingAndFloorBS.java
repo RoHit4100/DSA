@@ -4,7 +4,8 @@ class CeilingAndFloorBS{
     public static void main(String[] args){
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 15, 20, 65};
         System.out.println(Arrays.toString(getFloorAndCeil(arr, arr.length, 55)));
-
+        int ans = search(arr, 16);
+        System.out.println("and the ceiling is " + ans);
     }
 
     static int search(int[] arr, int target){
