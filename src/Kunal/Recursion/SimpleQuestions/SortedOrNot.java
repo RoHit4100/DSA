@@ -8,16 +8,16 @@ class SortedOrNot{
         return helper(arr, 0);
     }
 
-    static boolean helper(int[] arr, int start, int end){
-        if(start == end){
-            return true;
-        }
-        if(arr[start] < arr[start + 1]){
-            return helper(arr, start + 1, end);
-        }else{
-            return false;
-        }
-    }
+    // static boolean helper(int[] arr, int start, int end){
+    //     if(start == end){
+    //         return true;
+    //     }
+    //     if(arr[start] < arr[start + 1]){
+    //         return helper(arr, start + 1, end);
+    //     }else{
+    //         return false;
+    //     }
+    // }
 
 
     static boolean helper(int[] arr, int i){
