@@ -1,0 +1,1 @@
+!str.startsWith("apple")
