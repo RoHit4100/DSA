@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Kunal/Searching/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kunal/Searching/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/ArrayLeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/FindMissingNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,6 +182,16 @@
           <url>file://$PROJECT_DIR$/src/com/LinkedList/Questions/QuestionsLL.java</url>
           <line>34</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kunal/FindMissingNum.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kunal/ArrayLeader.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
