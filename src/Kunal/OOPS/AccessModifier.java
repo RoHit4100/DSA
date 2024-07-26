@@ -10,4 +10,5 @@ public class AccessModifier {
     // default access modifier can be use only in the same package, it cant be use in different packages.
 
     // final keyword prevents override, when u use it with method.
+    // final keyword also prevents the inheritance.
 }
