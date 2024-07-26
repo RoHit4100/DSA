@@ -1,9 +1,10 @@
+package Kunal.Recursion.SubSequenceQuestions;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-class SubSequence{
+class SubSequence1 {
     public static void main(String[] args) {
         String str = "abc";
 

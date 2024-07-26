@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-class SelectionSort{
+class SelectionSortOriginal {
     public static void main(String[] args) {
         int[] arr = {45,3,5,6,56,343,434,34,4};
         sort(arr);
