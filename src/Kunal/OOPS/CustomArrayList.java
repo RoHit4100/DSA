@@ -2,7 +2,8 @@ package Kunal.OOPS;
 
 import java.util.ArrayList;
 
-public class CustomArrayList<T> {
+public class CustomArrayList<T> { // if u want to use wildcards means u want to restrict the type, then u can use them
+    // CustomArrayList<T extends Numer>
     private Object[] arr;
     private int size = 0;
     private final int DEFAULT_SIZE = 10;
