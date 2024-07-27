@@ -20,16 +20,26 @@ public class Main {
 
 
         // for doubly LL
-        DoublyLL ll = new DoublyLL();
-        ll.insertFirst(12);
-        ll.insertFirst(32);
-        ll.insertFirst(22);
-        ll.insertFirst(16);
-        ll.insertLast(99);
-        ll.insertAfter(2, 2);
-        ll.remove(99);
+//        DoublyLL ll = new DoublyLL();
+//        ll.insertFirst(12);
+//        ll.insertFirst(32);
+//        ll.insertFirst(22);
+//        ll.insertFirst(16);
+//        ll.insertLast(99);
+//        ll.insertAfter(2, 2);
+//        ll.remove(99);
+//        ll.display();
+//        System.out.println(ll.find(2));
+//        ll.displayReverse();
+
+        CircularLL ll = new CircularLL();
+        ll.insert(12);
+        ll.insert(92);
+        ll.insert(52);
+        ll.insert( 2);
         ll.display();
-        System.out.println(ll.find(2));
-        ll.displayReverse();
+        ll.delete(2);
+        ll.delete(52);
+        ll.display();
    }
 }
