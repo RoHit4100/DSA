@@ -35,7 +35,10 @@ public class CustomLL {
         size++;
     }
 
-    public void insert(int value, int index){
+    public void insert(int value, int index) throws Exception {
+        if(index > size) {
+            throw new Exception("Index out of bound");
+        }
         if(index == 0){
             insertFirst(value);
             return;
@@ -61,9 +64,60 @@ public class CustomLL {
         node.next = temp.next;
         temp.next = node;
 */
-
         size++;
     }
+
+    public int deleteFirst(){
+        int value = head.value;
+        head = head.next;
+        if(head == null){
+            tail = null;
+        }
+        size--;
+        return value;
+    }
+
+    public int deleteLast() throws Exception{
+        if(size == 0){
+            throw new Exception("Cant delete from empty list");
+        }
+        if(size <= 1){
+            return deleteFirst();
+        }
+        int value = tail.value;
+        tail = get(size - 2);
+        tail.next = null;
+        return value;
+    }
+
+    public int delete(int index) throws Exception {
+        if(index == 0){
+            return deleteFirst();
+        }
+        if(index == size - 1){
+            return deleteLast();
+        }
+
+        Node prev = get(index - 1);
+        int val = prev.next.value;
+        prev.next = prev.next.next;
+        return val;
+    }
+
+    public int getValue(int index) throws Exception{
+        if(index > size){
+            throw new Exception("Index out of bound");
+        }
+        return get(index).value;
+    }
+    private Node get(int index){
+        Node node = head;
+        for(int i = 0; i < index; i++){
+            node = node.next;
+        }
+        return node;
+    }
+
     public void display(){
         Node temp = head;
         Node last;
@@ -74,9 +128,6 @@ public class CustomLL {
         System.out.println("END");
     }
 
-    public void add(int value){
-
-    }
     private class Node{
         private int value;
         private Node next;
