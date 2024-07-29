@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Kunal/LinkedList/Questions/LLQuestions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kunal/LinkedList/Questions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubArrSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/StackAndQueue/CircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/StackAndQueue/CustomQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/StackAndQueue/CustomStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/StackAndQueue/CustomStackException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/StackAndQueue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/StackAndQueue/Questions/CreateQueueWithStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValidIPV4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kunal/LinkedList/Questions/LLQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/LinkedList/Questions/LLQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kunal/Sorting/CyclicSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Sorting/CyclicSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

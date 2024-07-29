@@ -1,7 +1,5 @@
 package Kunal.LinkedList.Questions;
 
-import java.util.List;
-
 public class LLQuestions {
     private Node head;
     private Node tail;
@@ -317,6 +315,86 @@ public class LLQuestions {
         // now here I have to make current which will the node which is present out of the range, I have to connect my
         // new end to that node
         newEnd.next = current;
+        return head;
+    }
+
+
+    // check whether LL is palindrome or not
+
+    public boolean isPalindrome(Node head){
+        // to solve this problem I have to first get the middle node of the LL, and then Reverse from that middle element
+        Node mid = getMid(head);
+        Node reverseHead = reverse(mid);
+        Node reReverseHead = reverseHead;
+
+        while(reverseHead != null && reverseHead.next != null){
+            if(head.value != reverseHead.value){
+                break;
+            }
+            head = head.next;
+            reverseHead = reverseHead.next;
+        }
+
+        reverse(reReverseHead);
+
+        return head == null || reverseHead == null;
+    }
+
+    // reorder LL
+    public void reorderList(Node head) {
+        if (head == null || head.next == null) {
+            return;
+        }
+
+        // Find the middle node
+        Node mid = getMid(head);
+        Node head2 = mid.next;
+        mid.next = null;  // Split the list into two halves
+
+        // Reverse the second half
+        head2 = reverse(head2);
+
+        // Merge the two halves
+        Node head1 = head;
+        while (head1 != null && head2 != null) {
+            Node temp1 = head1.next;
+            Node temp2 = head2.next;
+
+            head1.next = head2;
+            head2.next = temp1;
+
+            head1 = temp1;
+            head2 = temp2;
+        }
+    }
+
+    // rotate list
+    // https://leetcode.com/problems/rotate-list/description/
+
+    public Node rotate(int k, Node head){
+        if(k < 0 || head == null || head.next == null){
+            return head;
+        }
+
+        // now the actual part begins.
+
+        int length = 1;
+        Node last = head;
+        // first I have to find the last node of the LL
+        while(last.next != null){
+            last = last.next;
+            length++;
+        }
+        last.next = head;
+        int rotation = k % length;
+        int skip = length - rotation;
+        Node newLast = head;
+        for(int i = 0; last != null && i < skip - 1; i++){
+            newLast = newLast.next;
+        }
+
+        head = newLast.next;
+        last.next = null;
         return head;
     }
     public void display(){
