@@ -1,6 +1,5 @@
-package Strivers.StacksAndQueues.Questions;
+package Strivers.StacksAndQueues.Conversions;
 
-import javax.swing.*;
 import java.util.Stack;
 
 public class PostToInfix {

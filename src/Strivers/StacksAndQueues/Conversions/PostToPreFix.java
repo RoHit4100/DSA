@@ -1,16 +1,16 @@
-package Strivers.StacksAndQueues.Questions;
+package Strivers.StacksAndQueues.Conversions;
 
 import java.util.Stack;
 
-public class PreToPostFix {
+public class PostToPreFix {
     public static void main(String[] args) {
 
     }
 
     public static String convert(Stack<String> stack, String eq){
         // here I only have to maintain the stack.
-        int i = 0;
-        while (i < eq.length()){
+        int i = eq.length() - 1;
+        while (i >= 0){
             char ch = eq.charAt(i);
             // I have to check whether current character is operand or operator
             if(Character.isLetterOrDigit(ch)){
@@ -18,10 +18,10 @@ public class PreToPostFix {
             }else{
                 String top1 = stack.pop();
                 String top2 = stack.pop();
-                String conversion = "(" + top2 + ch + top1 +")";
+                String conversion = top1 + top2 + ch;
                 stack.push(conversion);
             }
-            i++;
+            i--;
         }
         return stack.peek();
     }

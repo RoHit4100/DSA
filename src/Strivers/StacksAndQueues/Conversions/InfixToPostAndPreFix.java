@@ -1,4 +1,4 @@
-package Strivers.StacksAndQueues.Questions;
+package Strivers.StacksAndQueues.Conversions;
 
 import java.util.Stack;
 
