@@ -1,8 +1,6 @@
 import Kunal.Trees.CreateTree;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class RevisionForRecursion  {
     // how to convert a character into integer, for that we have to add that character with 0
@@ -94,6 +92,98 @@ public class RevisionForRecursion  {
         }
         return outer;
     }
+
+    static List<String> mazeAllPath(String p, boolean[][] board, int row, int col){
+        List<String> ls = new ArrayList<>();
+        if(row == board.length - 1 && col == board[0].length - 1){
+            ls.add(p);
+            return ls;
+        }
+
+        if(!board[row][col]){
+            return ls;
+        }
+
+        board[row][col] = false;
+
+        if(row < board.length - 1) {
+            ls.addAll((mazeAllPath(p + "down ", board, row + 1, col)));
+        }
+        if(row > 0){
+            ls.addAll((mazeAllPath(p + "up ",board,row - 1, col)));
+        }
+        if(col < board.length - 1){
+            ls.addAll((mazeAllPath(p + "right ", board, row, col + 1)));
+        }
+        if(col > 0){
+            ls.addAll((mazeAllPath(p + "left ", board, row, col - 1)));
+        }
+        board[row][col] = true;
+        return ls;
+    }
+
+    static int mazeAllPath1(String p, boolean[][] board, int row, int col){
+        if(row == board.length - 1 && col == board[0].length - 1){
+            board[row][col] = false;
+            for(boolean[] line: board){
+                System.out.println(Arrays.toString(line));
+            }
+            System.out.println();
+            return 1;
+        }
+
+        if(!board[row][col]){
+            return 0;
+        }
+
+        board[row][col] = false;
+        int count = 0;
+        if(row < board.length - 1) {
+            count += mazeAllPath1(p + "down ", board, row + 1, col);
+        }
+        if(row > 0){
+            count += mazeAllPath1(p + "up ",board,row - 1, col);
+        }
+        if(col < board.length - 1){
+            count += mazeAllPath1(p + "right ", board, row, col + 1);
+        }
+        if(col > 0){
+            count += mazeAllPath1(p + "left ", board, row, col - 1);
+        }
+        board[row][col] = true;
+        return count;
+    }
+
+
+    static void mazeAllPathDisplay(int[][] board, int row, int col, int count){
+        if(row == board.length - 1 && col == board[0].length - 1){
+            board[row][col] = count;
+            for(int[] line: board){
+                System.out.println(Arrays.toString(line));
+            }
+            System.out.println();
+            return;
+        }
+
+        if(board[row][col] != 0){
+            return;
+        }
+        board[row][col] = count;
+
+        if(row < board.length - 1) {
+            mazeAllPathDisplay(board, row + 1, col, count + 1);
+        }
+        if(row > 0){
+            mazeAllPathDisplay(board,row - 1, col, count + 1);
+        }
+        if(col < board.length - 1){
+            mazeAllPathDisplay(board, row, col + 1, count + 1);
+        }
+        if(col > 0){
+            mazeAllPathDisplay( board, row, col - 1, count + 1);
+        }
+        board[row][col] = 0;
+    }
     public static void main(String[] args) {
 //        changeAtoB("", "aab");
 //        printSubSets("", "abc");
@@ -101,14 +191,25 @@ public class RevisionForRecursion  {
 //        System.out.println('b' - 'a');
 //        permutations("", "abc");
 //        System.out.println(permutations1("", "abc"));
-        boolean[][] board = {
-                {true, true, true},
-                {true, false, true},
-                {true, false, true}
+//        boolean[][] board = {
+//                {true, true, true},
+//                {true, true, true},
+//                {true, true, true}
+//        };
+//        System.out.println(mazeCount(board, 2,2));
+////        mazePath(board, 0,0,"");
+////        System.out.println(mazeAllPath("", board, 0, 0));
+//        int totalPaths = mazeAllPath1("",board, 0, 0);
+//        System.out.println(totalPaths);
+
+        int[][] arr = {
+                {0, 0, 0},
+                {0, 0, 0},
+                {0, 0, 0},
         };
-        System.out.println(mazeCount(board, 2,2));
-        mazePath(board, 0,0,"");
+        mazeAllPathDisplay(arr, 0, 0, 1);
     }
+
     static void mazePath(boolean[][] board, int row, int col, String p){
         if(row == board.length - 1 && col == board[0].length - 1){
             System.out.println(p);
