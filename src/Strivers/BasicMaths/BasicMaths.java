@@ -150,7 +150,6 @@ public class BasicMaths {
     }
 
     static int getTheReverse(int n){
-        int original = n;
         int reverse = 0;
 
         while(n > 0){

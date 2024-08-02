@@ -2,9 +2,11 @@ import java.util.Arrays;
 
 public class SubArrSum {
     public static void main(String[] args) {
-        int[] arr = {25, 11, 12, 21, 25, 11};
-        int[] ans = findMinSum(2, arr);
-        System.out.println(Arrays.toString(ans));
+        int[] arr = new int[1];
+        System.out.println(Arrays.toString(arr));
+//        int[] arr = {25, 11, 12, 21, 25, 11};
+//        int[] ans = findMinSum(2, arr);
+//        System.out.println(Arrays.toString(ans));
     }
 
     public static int[] findMinSum(int k, int[] arr){

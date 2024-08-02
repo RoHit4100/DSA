@@ -1,3 +1,5 @@
+package Kunal.Recursion.Questions;
+
 class Dice{
     public static void main(String[] args){
         dice("", 4);
