@@ -106,6 +106,47 @@ public class BinarySearchTree {
         }
     }
 
+    void printOrders(){
+        System.out.println("pre order");
+        preOrder(root);
+        System.out.println("in order");
+        inOrder(root);
+        System.out.println("post order");
+        postOrder(root);
+    }
+    // traversals of tree
+    void preOrder(Node node){
+        // node -> left -> right
+        if(node == null){
+            return;
+        }
+
+        System.out.print(node.value + " ");
+        preOrder(node.left);
+        preOrder(node.right);
+    }
+
+    void inOrder(Node node){
+        if(node == null){
+            return;
+        }
+
+        // left -> node -> right
+        inOrder(node.left);
+        System.out.print(node.value + " ");
+        inOrder(node.right);
+    }
+
+    void postOrder(Node node){
+        if(node == null){
+            return;
+        }
+
+        // left -> right -> node
+        postOrder(node.left);
+        postOrder(node.right);
+        System.out.print(node.value + " ");
+    }
 
     public static void main(String[] args) {
         BinarySearchTree bst = new BinarySearchTree();
@@ -113,5 +154,6 @@ public class BinarySearchTree {
         bst.insertSorted(arr);
         bst.display();
         System.out.println(bst.balance());
+        bst.printOrders();
     }
 }
