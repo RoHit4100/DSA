@@ -6,6 +6,7 @@ public class CreateTreeAgain {
 
     Node root;
 
+
     public void insert(Scanner sc){
         System.out.println("Enter the root node");
         int value = sc.nextInt();

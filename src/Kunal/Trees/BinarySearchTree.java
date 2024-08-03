@@ -17,6 +17,21 @@ public class BinarySearchTree {
         return root == null;
     }
 
+    void insertSorted(int[] arr){
+        insertSorted(arr, 0, arr.length);
+    }
+
+    void insertSorted(int[] arr, int start, int end){
+        if(start >= end){
+            return;
+        }
+
+        int mid = (start + end) / 2;
+        insert(arr[mid]);
+        insertSorted(arr, start, mid);
+        insertSorted(arr, mid + 1, end);
+    }
+
     void insert(int value){
         if(root == null){
             root = new Node(value);
@@ -72,9 +87,9 @@ public class BinarySearchTree {
             return;
         }
 
-        System.out.println(node.value + info);
-        display(node.left, " Left node of " + node.value + " is: ");
-        display(node.right, " Right node of " + node.value + " is: ");
+        System.out.println(info + node.value);
+        display(node.left, "Left node of " + node.value + " is: ");
+        display(node.right, "Right node of " + node.value + " is: ");
     }
 
     public class Node{
@@ -94,10 +109,8 @@ public class BinarySearchTree {
 
     public static void main(String[] args) {
         BinarySearchTree bst = new BinarySearchTree();
-        int[] arr = {34,523,56,456,63,43,224,23, 1, 2, 3};
-        for(int i = 0; i < arr.length; i++){
-            bst.insert(arr[i]);
-        }
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        bst.insertSorted(arr);
         bst.display();
         System.out.println(bst.balance());
     }
