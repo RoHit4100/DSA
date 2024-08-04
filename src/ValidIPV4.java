@@ -51,6 +51,7 @@ public class ValidIPV4 {
         for (String ip : testIPs) {
             System.out.println(ip + " is valid: " + isValidIPv4(ip));
         }
+
     }
 
 }
