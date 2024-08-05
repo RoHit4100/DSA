@@ -290,4 +290,45 @@ public class QuestionsOfBFS extends BFS {
         // if node is not present on the left side then node has to present on the right side.
         return findNode(node.right, value);
     }
+
+
+    // https://leetcode.com/problems/symmetric-tree/description/
+
+    public boolean isSymmetric(TreeNode root) {
+        if(root == null){
+            return true;
+        }
+
+        // first create queue, and for the fact we don't have to compare root node, as it is only one
+        Queue<TreeNode> queue = new LinkedList<>();
+
+        // now add the left and right of the root node
+        queue.offer(root.left);
+        queue.offer(root.right);
+
+        while (!queue.isEmpty()){
+            // now get the first two nodes from the queue
+            TreeNode left = queue.poll();
+            TreeNode right = queue.poll();
+
+            if(left == null && right != null){
+                return false;
+            }
+
+            if(left == null){
+                continue;
+            }
+
+            if(left.val != right.val){
+                return false;
+            }
+
+            queue.offer(left.left);
+            queue.offer(right.right);
+            queue.offer(left.right);
+            queue.offer(right.left);
+        }
+
+        return true;
+    }
 }
