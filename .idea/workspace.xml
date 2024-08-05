@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Kunal/Strings/BInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kunal/Strings/SBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kunal/Trees/AVL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/Trees/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/Trees/Questions/QuestionsOfBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/Trees/SegmentTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kunal/Recursion/SubSequenceAndSubSetQuestions/SubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Recursion/SubSequenceAndSubSetQuestions/SubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValidIPV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidIPV4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
