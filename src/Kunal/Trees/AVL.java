@@ -110,7 +110,7 @@ public class AVL {
         AVL tree = new AVL();
 
         for(int i = 1; i < 1000; i++){
-            tree.insert(i);
+            tree.insert(i * 2);
         }
         System.out.println(tree.getHeight());
     }
