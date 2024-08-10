@@ -7,6 +7,7 @@ public class SubArrSum {
 //        int[] arr = {25, 11, 12, 21, 25, 11};
 //        int[] ans = findMinSum(2, arr);
 //        System.out.println(Arrays.toString(ans));
+
     }
 
     public static int[] findMinSum(int k, int[] arr){
