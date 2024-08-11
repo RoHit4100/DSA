@@ -32,7 +32,7 @@ public class FindTwoSwappedNodesInBST extends BFS {
             if(first == null){
                 first = prev;
             }
-            second = prev;
+            second = node;
         }
         prev = node;
         helper(node.right, prev);
