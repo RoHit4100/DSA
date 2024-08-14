@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/SortingAlgorithms/SortingUsingRecursion/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Arrays/MoveZerosAtTheEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Arrays/RemoveDuplicatesFromArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Arrays/RotateFromK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Arrays/RotatedArrSortedOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Arrays/SecondLargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Arrays/SpiralOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/SortingAlgorithms/SortingUsingRecursion/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/SortingAlgorithms/SortingUsingRecursion/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kunal/Recursion/SortingQuestions/InPlaceMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Recursion/SortingQuestions/InPlaceMergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kunal/Recursion/SortingQuestions/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Recursion/SortingQuestions/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kunal/Recursion/SortingQuestions/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Recursion/SortingQuestions/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kunal/Recursion/SortingQuestions/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Recursion/SortingQuestions/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
