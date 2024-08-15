@@ -24,7 +24,6 @@ public class LongestSubArrWithSumK {
                 maxLength = Math.max(maxLength, right - left + 1);
             }
         }
-
         return maxLength;
     }
     // using sliding window approach but this code will not work with negatives
