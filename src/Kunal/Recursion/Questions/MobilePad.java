@@ -1,3 +1,5 @@
+package Kunal.Recursion.Questions;
+
 class MobilePad{
     public static void main(String[] args) {
         String str = "12";

@@ -1,3 +1,5 @@
+package Kunal.Recursion.Questions;
+
 class MazeWithObstacles{
     public static void main(String[] args){
         boolean[][] puzzle = {
@@ -35,7 +37,7 @@ class MazeWithObstacles{
             return;
         }
 
-        // now make check whether or not the current location is visited or has obstacle.
+        // now make check whether the current location is visited or has obstacle.
         if(!maze[row][col]){
             return;
         }

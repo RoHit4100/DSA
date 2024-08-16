@@ -1,4 +1,4 @@
-
+package Kunal.Recursion.Questions;
 
 class NQueen{
     public static void main(String[] args){

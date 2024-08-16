@@ -1,3 +1,4 @@
+package Kunal.Recursion.Questions;
 
 class Maze{
     public static void main(String[] args){
