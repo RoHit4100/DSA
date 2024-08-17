@@ -1,3 +1,5 @@
+package Kunal.Recursion.PermutationsQuestions;
+
 class PermutationOfString{
     public static void main(String[] args){
         String str = "abc";
@@ -16,7 +18,7 @@ class PermutationOfString{
 
         for(int i = 0; i <= p.length(); i++){
             String f = p.substring(0, i);
-            String l = p.substring(i, p.length());
+            String l = p.substring(i);
             permutation(f + ch + l, up.substring(1));
         }
     }
