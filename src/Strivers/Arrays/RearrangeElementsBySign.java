@@ -86,6 +86,7 @@ public class RearrangeElementsBySign {
             int index = nSize * 2;
             for(int j = nSize; j < positive.size(); j++){
                 arr[index] = positive.get(j);
+                index++;
             }
         }else{
             for(int i = 0; i < positive.size(); i++){
@@ -98,6 +99,7 @@ public class RearrangeElementsBySign {
             int index = pSize * 2;
             for(int j = pSize; j < negative.size(); j++){
                 arr[index] = negative.get(j);
+                index++;
             }
         }
 
