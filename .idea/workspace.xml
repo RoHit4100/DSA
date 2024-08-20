@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/Arrays/SetMatrix0s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemOfTheDay/CountOfSubArrayWithSumK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Arrays/FlipTheImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Arrays/PascalTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
