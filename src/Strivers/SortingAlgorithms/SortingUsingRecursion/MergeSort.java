@@ -3,13 +3,74 @@ package Strivers.SortingAlgorithms.SortingUsingRecursion;
 import java.util.Arrays;
 
 public class MergeSort {
-    public static void main(String[] args) {
-        int[] arr = {5,4,3,2,1};
-        mergeSort(arr, 0, arr.length);
-        System.out.println(Arrays.toString(arr));
+    // merge Sort Strivers
+    static void mergeSort(int[] arr, int low, int high){
+        if(low >= high){
+            return;
+        }
+
+        // find the mid first
+        int mid = (low + high) / 2;
+
+        // now divide the first half
+        mergeSort(arr, low, mid);
+        // divide the second half
+        mergeSort(arr, mid + 1, high);
+
+
+        // now third step is merge the two halves
+        merge(arr, low, mid, high);
     }
 
-    static void mergeSort(int[] arr, int start, int end){
+    static void merge(int[] arr, int start, int mid, int end){
+        // get the temp array for storing the elements
+        int[] temp = new int[start + end + 1];
+
+        int left = start; // start of the first half
+        int right = mid + 1; // start of the second half
+        int i = 0; // start of the temp
+
+        while (left <= mid && right <= end){
+            if(arr[left] <= arr[right]){
+                temp[i] = arr[left];
+                left++;
+            }else {
+                temp[i] = arr[right];
+                right++;
+            }
+            i++;
+        }
+
+        // if at the end any of the half has some remaining elements then add those elements into the temp array
+        while (left <= mid){
+            temp[i] = arr[left];
+            left++;
+            i++;
+        }
+
+        while (right <= end){
+            temp[i] = arr[right];
+            right++;
+            i++;
+        }
+
+
+        // now Add those elements into the original array
+        for(int j = start; j <= end; j++){
+            arr[j] = temp[j - start];
+        }
+    }
+
+
+    public static void main(String[] args) {
+        int[] arr = {5,4,3,2,1};
+//        mergeSort(arr, 0, arr.length);
+        mergeSort(arr, 0, arr.length - 1);
+        System.out.println(Arrays.toString(arr));
+
+    }
+
+    static void mergeSort1(int[] arr, int start, int end){
         // this condition will check how many elements do we have left, if one then just return from here
         if(end - start == 1){
             return;
@@ -18,8 +79,8 @@ public class MergeSort {
 
         // now first get the mid
         int mid = start + (end - start) / 2;
-        mergeSort(arr, start, mid);
-        mergeSort(arr, mid, end);
+        mergeSort1(arr, start, mid);
+        mergeSort1(arr, mid, end);
 
         // after dividing array into two parts then call the merge Method
         merger(arr, start, mid, end);
