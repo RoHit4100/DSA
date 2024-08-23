@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Easy/SearchInRotatedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/FindHowManyTimesArrayIsRotated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/FindMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/FindMinInDuplicateRotatedArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/SearchInRotatedWithDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/SingleElementInSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/SingleElementInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/SingleElementInSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
