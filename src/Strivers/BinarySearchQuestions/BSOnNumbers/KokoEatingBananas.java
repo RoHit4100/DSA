@@ -63,4 +63,46 @@ public class KokoEatingBananas {
         }
         return max;
     }
+
+
+    // answer
+    public static int minimumRateToEatBananas(int []arr, int h) {
+        // Write Your Code Here
+        int max = getMax(arr);
+
+        // we can apply binary search here as we know that some part of the range
+        // and we know that some part of the range can be our answer and some not
+        int start = 1;
+        int end = max;
+        while(start <= end){
+            int mid = start + (end - start) / 2;
+
+            if(getHours(arr, mid, h)){
+                end = mid - 1;
+            }else{
+                start = mid + 1;
+            }
+        }
+        return start;
+    }
+
+    static boolean getHours(int[] arr, int hourly, int h){
+        int totalHours = 0;
+        for(int i = 0; i < arr.length; i++){
+            totalHours += (int) Math.ceil((double)arr[i] / (double)hourly);
+            if(totalHours > h){
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+    static int getMax(int[] arr){
+        int max = Integer.MIN_VALUE;
+        for(int num: arr){
+            max = Math.max(num, max);
+        }
+        return max;
+    }
 }
