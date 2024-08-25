@@ -5,9 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/FindKThElementInTwoSortedArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/MedianOfTwoSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn2D/FindRowWithMaxNumOf1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn2D/MaxNoOf1sInUnsortedMat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn2D/PeakElementIn2DMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn2D/SearchIn2DMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/AggressiveCows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/AggressiveCows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/AllocateBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/AllocateBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/CapacityToShipPackages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/CapacityToShipPackages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/FindKThElementInTwoSortedArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/FindKThElementInTwoSortedArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/KokoEatingBananas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/KokoEatingBananas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/KthMissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/KthMissingPositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/MagnetForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/MagnetForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/MedianOfTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/MedianOfTwoSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/MinOfMaxProductDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/MinOfMaxProductDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/MinimizeMaxDistanceBetweenGasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Hard/MinimizeMaxDistanceBetweenGasStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/NthSqrtOfM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/NthSqrtOfM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/SmallestDivisorOfGivenThreshold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/SmallestDivisorOfGivenThreshold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/SquareRootOfN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/SquareRootOfN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOnNumbers/TotalBouquetsPossible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/BSOnNumbers/TotalBouquetsPossible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Easy/CeilAndFloorInUnsortedArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Easy/CeilAndFloorInUnsortedArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Easy/FindFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Easy/FindFloor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Easy/LowerBound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Easy/LowerBound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Easy/SearchInRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Easy/SearchInRotatedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Easy/UpperBound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Easy/UpperBound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/FindHowManyTimesArrayIsRotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Medium/FindHowManyTimesArrayIsRotated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/FindMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Medium/FindMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/FindMinInDuplicateRotatedArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Medium/FindMinInDuplicateRotatedArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/FindPeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Medium/FindPeakElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/FirstAndLastOccuranceOfX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Medium/FirstAndLastOccuranceOfX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/ReturnTheCountOfOccurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Medium/ReturnTheCountOfOccurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/SearchInRotatedWithDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Medium/SearchInRotatedWithDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/Medium/SingleElementInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchQuestions/BSOn1D/Medium/SingleElementInSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
