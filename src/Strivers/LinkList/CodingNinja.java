@@ -1,7 +1,7 @@
 package Strivers.LinkList;
 
 public class CodingNinja {
-    public class Node {
+    static public class Node {
         public int data;
         public Node next;
 
