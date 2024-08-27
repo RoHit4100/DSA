@@ -2,7 +2,7 @@ package Strivers.LinkList;
 
 public class Leetcode {
     public class ListNode {
-      int val;
+      public int val;
       public ListNode next;
       ListNode() {}
       public ListNode(int val) { this.val = val; }

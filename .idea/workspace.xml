@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/LinkList/Questions/Medium/DetectCycleInLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/LinkList/Questions/Medium/LengthOfCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/LinkList/Questions/Medium/PalindromeOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/LinkList/Questions/Medium/StartingPointOfCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/LinkList/Questions/Medium/RemoveNthNodeFromLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/LinkList/Questions/Medium/SegregateOddEvenIndexes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/LinkList/Leetcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/LinkList/Leetcode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
