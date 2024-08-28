@@ -47,7 +47,7 @@ public class DeleteAllOccurrences extends Leetcode {
             }
             second = second.next;
         }
-        first.next = null;
+        first.next = null; // disconnect all nodes
         return head;
     }
 
