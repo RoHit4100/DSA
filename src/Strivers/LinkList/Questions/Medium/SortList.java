@@ -48,7 +48,7 @@ public class SortList extends CodingNinja {
     }
 
     private static Node mergeSort(Node head){
-        // return when their is only one node
+        // return when there is only one node
         if(head.next == null){
             return head;
         }
