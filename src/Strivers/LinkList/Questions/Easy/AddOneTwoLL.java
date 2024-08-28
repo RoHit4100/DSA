@@ -90,6 +90,7 @@ public class AddOneTwoLL extends CodingNinja {
                 head.data = 0;
                 return 1;
             }
+            head.data = result;
             return 0;
         }
         return carry;

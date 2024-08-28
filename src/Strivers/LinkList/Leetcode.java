@@ -1,7 +1,7 @@
 package Strivers.LinkList;
 
 public class Leetcode {
-    public class ListNode {
+    public static class ListNode {
       public int val;
       public ListNode next;
       ListNode() {}
