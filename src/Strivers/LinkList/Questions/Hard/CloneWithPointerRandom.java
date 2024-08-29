@@ -58,7 +58,7 @@ public class CloneWithPointerRandom {
         // NOW CONNECT COPY NODES TO THEIR RANDOM LINKS
         connectRandomPointer(head);
         // NOW RETURN THE DISCONNECTED CLONE LL
-        return disconnectCloneFromOriginal(head)
+        return disconnectCloneFromOriginal(head);
     }
     private void createAndAttachCopy(Node head){
         // this is the step one, and here we are going to create and attach the nodes in between two nodes
