@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/Recursion/Questions/Hard/CombinationSum3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/Recursion/Questions/Hard/LetterCombinationOfPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Recursion/Questions/Hard/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Recursion/Questions/Hard/PalindromePartitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Recursion/Questions/Hard/RatInMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Recursion/Questions/Hard/WordSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
