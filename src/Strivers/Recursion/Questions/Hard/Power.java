@@ -1,4 +1,4 @@
-package Strivers.Recursion.Questions.Medium;
+package Strivers.Recursion.Questions.Hard;
 
 public class Power {
     public double myPow(double x, int n) {
