@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/Recursion/Questions/Hard/Permutation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/Recursion/Questions/Hard/PermutationSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/Recursion/Questions/Hard/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/Recursion/Questions/Medium/Combination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemOfTheDay/CheckBinaryStringFrom1toN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/ConvertADecimalIntoBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/ConvertBinaryToDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/Medium/ConvertToBaseNeg2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/LinkList/Questions/Easy/ConvertLLOfBinaryNumIntoDecimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
