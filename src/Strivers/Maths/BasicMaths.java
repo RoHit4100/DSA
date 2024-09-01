@@ -1,9 +1,8 @@
-package Strivers.BasicMaths;
+package Strivers.Maths;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Scanner;
 
 public class BasicMaths {
     // kunal's basic maths questions start from here
@@ -97,7 +96,6 @@ public class BasicMaths {
 
 
     // this is the code which is used to get the lcm and hcf or gcd of two numbers
-
     static int gcd(int a, int b){
         if(a == 0)
             return b;

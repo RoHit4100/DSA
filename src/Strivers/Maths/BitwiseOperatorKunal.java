@@ -1,4 +1,4 @@
-package Strivers.BasicMaths;
+package Strivers.Maths;
 
 public class BitwiseOperatorKunal {
 
