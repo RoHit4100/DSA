@@ -176,9 +176,7 @@ public class BasicMaths {
             reverse = reverse * 10 + lastDigit;
             n /= 10;
         }
-        if(reverse == original)
-            return true;
-        return false;
+        return reverse == original;
     }
 
 
@@ -192,7 +190,7 @@ public class BasicMaths {
             // 	n /= 10;
             // 	continue;
             // }
-            armNum += Math.pow(singleDigit, totalDigits);
+            armNum += (int) Math.pow(singleDigit, totalDigits);
             n /= 10;
         }
 
