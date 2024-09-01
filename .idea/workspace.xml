@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ProblemOfTheDay/CheckBinaryStringFrom1toN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/ConvertADecimalIntoBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/ConvertBinaryToDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/Medium/ConvertToBaseNeg2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/LinkList/Questions/Easy/ConvertLLOfBinaryNumIntoDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemOfTheDay/LeetCode/Convert1Dto2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/CheckIfIthBitSetOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/Easy/CountingBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/Easy/PowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/RemoveLastSetBit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/SwapTwoNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BitManipulation/ConvertADecimalIntoBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/ConvertADecimalIntoBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BitManipulation/ConvertBinaryToDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BitManipulation/ConvertBinaryToDecimal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +70,9 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Strivers.BitManipulation.Easy" />
     </key>
   </component>
   <component name="RunManager">

@@ -26,7 +26,23 @@ public class ConvertADecimalIntoBinary {
         return convertToBinary(n / 2) + (n % 2);
     }
 
+    public static String binary(int n){
+        StringBuilder ans = new StringBuilder();
+
+        while(n != 0){
+            int rem = n % 2;
+            if(rem == 1){
+                ans.append("1");
+            }else {
+                ans.append("0");
+            }
+            n /= 2;
+        }
+        return ans.reverse().toString();
+    }
+
     public static void main(String[] args) {
         System.out.println(convertToBinary(10, new ArrayList<>()));
+        System.out.println(binary(10));
     }
 }
