@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/Revision/ConversionRev/InfixToPostfix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/Revision/ConversionRev/InfixToPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/Revision/ConversionRev/PostToInfix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemOfTheDay/SlotMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Revision/ConversionRev/PostToPre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Revision/ConversionRev/PreToIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Revision/ConversionRev/PreToPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
