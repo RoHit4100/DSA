@@ -80,11 +80,12 @@ public class NextGreaterElement2 {
                 stack.pop();
             }
             if(i < n){ // check if the current index is actual index or not
-                if(stack.isEmpty()){ // if stack is empty then there will be no greater element
-                    nge[i] = -1;
-                }else {
-                    nge[i] = stack.peek(); // if stack is not empty then the top of the stack will be greatest element
-                }
+                nge[i] = !stack.isEmpty() ? stack.peek(): -1;
+//                if(stack.isEmpty()){ // if stack is empty then there will be no greater element
+//                    nge[i] = -1;
+//                }else {
+//                    nge[i] = stack.peek(); // if stack is not empty then the top of the stack will be greatest element
+//                }
             }
             stack.push(nums[index]); // push the current element into the stack
         }
