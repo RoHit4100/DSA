@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/Maths/Questions/PrimeFactorizationUsingSeive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/CustomQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/CustomStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Easy/QueueUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Easy/StackUsingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Easy/ValidParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/Maths/Questions/ClosedPrimeNumbersRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/Maths/Questions/ClosedPrimeNumbersRange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

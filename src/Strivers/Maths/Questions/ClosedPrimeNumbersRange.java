@@ -1,5 +1,7 @@
 package Strivers.Maths.Questions;
 
+import java.util.Arrays;
+
 public class ClosedPrimeNumbersRange {
     public int[] closestPrimes(int left, int right) {
         // Create a boolean array to represent the sieve for prime checking
