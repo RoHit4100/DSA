@@ -62,7 +62,7 @@ public class NextGreaterElement1 {
             while (!stack.isEmpty() && arr[i] >= stack.peek()){ // this loop will only trigger when the current element is greater than the peek
                 stack.pop(); // pop all the items
             }
-            if(!stack.isEmpty()){ // check if stack is empty or not
+            if(stack.isEmpty()){ // check if stack is empty or not
                 nge[i] = -1;
             }else{
                 nge[i] = stack.peek(); // if not nge will the top of the stack
