@@ -14,6 +14,8 @@ public class Main {
         }
 
         StringBuilder str = new StringBuilder(1231+"");
+
         System.out.println(str);
     }
+
 }
