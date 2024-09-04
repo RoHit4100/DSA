@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Easy/FinalPriceWithSpacialDiscountNextSmaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Medium/NearestSmallerElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Hard/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Medium/NGEToRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Medium/SumOfSubArrayMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Medium/NextGreaterElement2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Medium/NextGreaterElement2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Easy/FinalPriceWithSpacialDiscountNextSmaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Easy/FinalPriceWithSpacialDiscountNextSmaller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

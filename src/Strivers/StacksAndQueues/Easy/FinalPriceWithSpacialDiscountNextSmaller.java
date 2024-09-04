@@ -3,22 +3,25 @@ package Strivers.StacksAndQueues.Easy;
 import java.util.Stack;
 
 public class FinalPriceWithSpacialDiscountNextSmaller {
-    public int[] finalPrices(int[] prices) {
-        int n = prices.length;
-        int[] ans = new int[n];
-        Stack<Integer> stack = new Stack<>();
-        for(int i = n - 1; i >= 0; i--){
-            while (!stack.isEmpty() && stack.peek() > prices[i]){
-                stack.pop();
-            }
-            if(stack.isEmpty()){
-                ans[i] = prices[i];
-            }else{
-                ans[i] = stack.peek();
-            }
-            stack.push(prices[i]);
-        }
 
-        return ans;
+    public int[] finalPrices(int[] prices) {
+        int[] discount = new int[prices.length];
+
+        for(int i = 0; i < prices.length; i++){
+            int minIndex = i;
+            for(int j = i + 1; j < prices.length; j++){
+                if(prices[minIndex] >= prices[j]){
+                    minIndex = j;
+                    break;
+                }
+            }
+
+            if(minIndex == i){
+                discount[i] = prices[i];
+            }else{
+                discount[i] = prices[i] - prices[minIndex];
+            }
+        }
+        return discount;
     }
 }
