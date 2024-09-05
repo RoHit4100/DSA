@@ -1,8 +1,70 @@
-package Strivers.StacksAndQueues.Medium;
+package Strivers.StacksAndQueues.Hard;
 
 import java.util.Stack;
 
 public class SumOfSubArrayMin {
+    class Solution {
+        private int MOD = 1000000007;
+        public int sumSubarrayMins(int[] arr) {
+            // to optimize this problem I have to find how many times the current number is added into the answer
+            // for that I have to find, In how many sub arrays the current number is smaller and that I can find by using, the index
+            // of previous smaller element, and the index of the next smaller element
+
+            // so lets first get the index of prev smaller and next smaller
+            int[] prevSmaller = findPrevSmaller(arr);
+            int[] nextSmaller = findNextSmaller(arr);
+
+            long totalSum = 0;
+
+            for(int i = 0; i < arr.length; i++){
+                int left = i - prevSmaller[i];
+                int right = nextSmaller[i] - i;
+
+                long product = (left * right) % MOD;
+                product = (product * arr[i]) % MOD;
+                totalSum = (totalSum % MOD + product) % MOD;
+            }
+            return (int)totalSum;
+        }
+
+
+        private int[] findPrevSmaller(int[] arr){
+            int n = arr.length;
+            int[] pse = new int[n];
+            Stack<Integer> stack = new Stack<>();
+            // here we will assume that if there is no smaller element in the left side of the element, then smaller element will exist in the -1 index
+            for(int i = 0; i < n; i++){
+                // pop the greater element from the stack, till you find the smaller element than the current smaller
+                while(!stack.isEmpty() && arr[stack.peek()] >= arr[i]){
+                    stack.pop();
+                }
+
+                // check if stack is empty or not
+                pse[i] = stack.isEmpty() ? -1 : stack.peek();
+                // push the current index into stack
+                stack.push(i);
+            }
+
+            return pse;
+        }
+
+
+        private int[] findNextSmaller(int[] arr){
+            int n = arr.length;
+            int[] nse = new int[n];
+            Stack<Integer> stack = new Stack<>();
+            for(int i = n - 1; i >= 0; i--){
+                while(!stack.isEmpty() && arr[stack.peek()] > arr[i]){
+                    stack.pop();
+                }
+
+                nse[i] = stack.isEmpty() ? n : stack.peek();
+                stack.push(i);
+            }
+
+            return nse;
+        }
+    }
     // optimal solution using pse and nse
     public int sumSubArrayMin(int[] arr) {
         Stack<Integer> stack  = new Stack<>();
