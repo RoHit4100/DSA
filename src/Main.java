@@ -13,8 +13,8 @@ public class Main {
             System.out.println(queue);
         }
 
-        StringBuilder str = new StringBuilder(1231+"");
-
+        StringBuilder str = new StringBuilder("rohit");
+        str.reverse();
         System.out.println(str);
     }
 
