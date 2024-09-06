@@ -1,6 +1,4 @@
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +10,8 @@ public class Main {
         for (Queue<Integer> queue : Arrays.asList(que, qu2)) {
             System.out.println(queue);
         }
-
+        Map<Integer, Integer> map = new HashMap<>(8);
+        
         StringBuilder str = new StringBuilder("rohit");
         str.reverse();
         System.out.println(str);

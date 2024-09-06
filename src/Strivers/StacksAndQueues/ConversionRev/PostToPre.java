@@ -1,4 +1,4 @@
-package Strivers.Revision.ConversionRev;
+package Strivers.StacksAndQueues.ConversionRev;
 import java.util.Stack;
 public class PostToPre {
     static String postToPre(String s){
