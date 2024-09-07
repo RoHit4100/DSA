@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Hard/LeastRecentlyUsedCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Medium/CelebrityProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/Revision/ConversionRev/InfixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/ConversionRev/InfixToPostfix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/Revision/ConversionRev/InfixToPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/ConversionRev/InfixToPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/Revision/ConversionRev/PostToInfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/ConversionRev/PostToInfix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/Revision/ConversionRev/PostToPre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/ConversionRev/PostToPre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/Revision/ConversionRev/PreToIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/ConversionRev/PreToIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/Revision/ConversionRev/PreToPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/ConversionRev/PreToPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Conversions/InfixToPostAndPreFix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Conversions/PostToInfix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Conversions/PostToPreFix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Conversions/PreToInFix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strivers/StacksAndQueues/Conversions/PreToPostFix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/Hashing/FrequencyOfLimitedRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/Hashing/FrequencyOfLimitedRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/SldingWindowAndTwoPointer/ConstantWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/SldingWindowAndTwoPointer/ConstantWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/SldingWindowAndTwoPointer/Easy/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/SldingWindowAndTwoPointer/Easy/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/SldingWindowAndTwoPointer/Easy/ContainsDuplicate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/SldingWindowAndTwoPointer/Easy/ContainsDuplicate2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/SldingWindowAndTwoPointer/LongestSubArrayOrSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/SldingWindowAndTwoPointer/LongestSubArrayOrSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
