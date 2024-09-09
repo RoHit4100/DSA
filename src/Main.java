@@ -15,6 +15,8 @@ public class Main {
         StringBuilder str = new StringBuilder("rohit");
         str.reverse();
         System.out.println(str);
+
+        Integer n = 111;
     }
 
 }
