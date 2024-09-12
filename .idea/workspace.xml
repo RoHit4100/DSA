@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Easy/DiameterOfTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Easy/HeightOrDepthOfBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Easy/TreeIsBalancedOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Medium/SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Medium/ZigZagTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Hard/MaximumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Hard/MaximumPathSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
