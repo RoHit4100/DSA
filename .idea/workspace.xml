@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Hard/BTFromInorderAndPreOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Hard/BTFromPostAndInorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Medium/CompletenessOfBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Medium/CountTheNoOfNodesInCompleteBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Hard/SerializeAndDeserialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Medium/FlattenBTIntoLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
