@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Hard/SerializeAndDeserialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strivers/BinaryTrees/Medium/FlattenBTIntoLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchTree/Easy/CeilInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchTree/Easy/FloorInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchTree/Easy/SearchInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchTree/Leetcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchTree/Medium/DeleteNodeInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchTree/Medium/InsertNodeIntoBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/BinarySearchTree/Medium/KthSmallestElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
