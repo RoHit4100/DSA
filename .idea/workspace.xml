@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6f19f7-1678-4f9d-b266-d4e485250367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/TimeConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemOfTheDay/LeetCode/KthLexicographicalNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Graphs/Medium/FloodFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Strings/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Strings/LargestOddInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Strings/RemoveOuterMostParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Strings/ReverseWordsString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Strings/RotatedString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strivers/Strings/SortAccordingToFreq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Strivers/Graphs/Medium/RottenOranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strivers/Graphs/Medium/RottenOranges.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +28,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>

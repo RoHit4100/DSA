@@ -45,7 +45,7 @@ public class RottenOranges {
                 int newCol = col + dCol[i];
 
                 // check if newRow and newCol are in bound or not
-                if(isValid(newRow, newCol, n, m) && grid[newRow][newCol] == 1){
+                if(isValid(newRow, newCol, n, m) && grid[newRow][newCol] == 1){ // also check if current orange is fresh or not
                     // increase the converted, as we have found the fresh orange
                     converted++;
                     // convert the fresh into rotten

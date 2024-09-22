@@ -16,6 +16,8 @@ public class Main {
         str.reverse();
         System.out.println(str);
 
+
+        System.out.println((char) 90);
         Integer n = 111;
     }
 
