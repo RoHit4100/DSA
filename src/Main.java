@@ -19,6 +19,7 @@ public class Main {
 
         System.out.println((char) 90);
         Integer n = 111;
+        String str11 = "rohit";
     }
 
 }
